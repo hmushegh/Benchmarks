@@ -1,5 +1,6 @@
 META-INF/CompilerHints
 App/jmh_generated/BenchmarksLoopsStreams_jmhType_B3.class
+App/jmh_generated/BenchmarksLoopsStreams_testParallelStreams_jmhTest.class
 META-INF/BenchmarkList
 App/BenchmarksLoopsStreams$Params.class
 App/jmh_generated/BenchmarksLoopsStreams_jmhType_B2.class

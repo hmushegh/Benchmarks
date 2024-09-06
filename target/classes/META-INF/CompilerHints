@@ -5,4 +5,5 @@ dontinline,*.*_ss_jmhStub
 dontinline,*.*_thrpt_jmhStub
 inline,App/BenchmarksLoopsStreams.fillUpLists
 inline,App/BenchmarksLoopsStreams.testForLoops
+inline,App/BenchmarksLoopsStreams.testParallelStreams
 inline,App/BenchmarksLoopsStreams.testStreams

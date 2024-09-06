@@ -88,6 +88,25 @@ public class BenchmarksLoopsStreams {
 	
 	
 	
+	@Benchmark
+	public static void testParallelStreams(Blackhole blackhole) {
+
+		 long sum = 0;
+		 for (List<Integer> lt: list) {
+			 if (lt != null) {
+				 sum += lt.parallelStream()
+					.filter(Objects::nonNull)
+					  .mapToInt(Integer::intValue)
+					  .sum();				
+			 	
+			 }
+		 }
+				 
+		 blackhole.consume(sum);
+	}
+	
+	
+	
    public static void main(String[] args) throws Exception {
 		org.openjdk.jmh.Main.main(args);
 	}
