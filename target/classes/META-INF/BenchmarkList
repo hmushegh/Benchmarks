@@ -1,4 +1,4 @@
-JMH S 26 App.BenchmarksLoopsStreams S 60 App.jmh_generated.BenchmarksLoopsStreams_fillUpLists_jmhTest S 11 fillUpLists S 10 Throughput E A 1 1 1 E I 2 10 T 6 100 ms E I 2 10 T 6 100 ms E E E E E E E E E E E 
-JMH S 26 App.BenchmarksLoopsStreams S 61 App.jmh_generated.BenchmarksLoopsStreams_testForLoops_jmhTest S 12 testForLoops S 10 Throughput E A 1 1 1 E I 2 10 T 6 100 ms E I 2 10 T 6 100 ms E E E E E E E E E E E 
-JMH S 26 App.BenchmarksLoopsStreams S 68 App.jmh_generated.BenchmarksLoopsStreams_testParallelStreams_jmhTest S 19 testParallelStreams S 10 Throughput E A 1 1 1 E I 2 10 T 6 100 ms E I 2 10 T 6 100 ms E E E E E E E E E E E 
-JMH S 26 App.BenchmarksLoopsStreams S 60 App.jmh_generated.BenchmarksLoopsStreams_testStreams_jmhTest S 11 testStreams S 10 Throughput E A 1 1 1 E I 2 10 T 6 100 ms E I 2 10 T 6 100 ms E E E E E E E E E E E 
+JMH S 26 App.BenchmarksLoopsStreams S 60 App.jmh_generated.BenchmarksLoopsStreams_fillUpLists_jmhTest S 11 fillUpLists S 11 AverageTime E A 1 1 1 E I 2 10 T 6 100 ms E I 2 10 T 6 100 ms E E E E E E E E E E E 
+JMH S 26 App.BenchmarksLoopsStreams S 61 App.jmh_generated.BenchmarksLoopsStreams_testForLoops_jmhTest S 12 testForLoops S 11 AverageTime E A 1 1 1 E I 2 10 T 6 100 ms E I 2 10 T 6 100 ms E E E E E E E E E E E 
+JMH S 26 App.BenchmarksLoopsStreams S 68 App.jmh_generated.BenchmarksLoopsStreams_testParallelStreams_jmhTest S 19 testParallelStreams S 11 AverageTime E A 1 1 1 E I 2 10 T 6 100 ms E I 2 10 T 6 100 ms E E E E E E E E E E E 
+JMH S 26 App.BenchmarksLoopsStreams S 60 App.jmh_generated.BenchmarksLoopsStreams_testStreams_jmhTest S 11 testStreams S 11 AverageTime E A 1 1 1 E I 2 10 T 6 100 ms E I 2 10 T 6 100 ms E E E E E E E E E E E 

@@ -17,7 +17,8 @@ import org.openjdk.jmh.annotations.State;
 import org.openjdk.jmh.annotations.Warmup;
 import org.openjdk.jmh.infra.Blackhole;
 
-@BenchmarkMode(Mode.Throughput)
+//@BenchmarkMode(Mode.Throughput) 
+@BenchmarkMode(Mode.AverageTime) 
 @Warmup(iterations = 10, time = 100, timeUnit = TimeUnit.MILLISECONDS)
 @Measurement(iterations = 10, time = 100, timeUnit = TimeUnit.MILLISECONDS)
 public class BenchmarksLoopsStreams {

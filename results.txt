@@ -553,3 +553,565 @@ App.BenchmarksLoopsStreams.fillUpLists          thrpt   50   26.698 ± 12.038  o
 App.BenchmarksLoopsStreams.testForLoops         thrpt   50  321.909 ± 33.399  ops/s
 App.BenchmarksLoopsStreams.testParallelStreams  thrpt   50  318.241 ± 23.000  ops/s
 App.BenchmarksLoopsStreams.testStreams          thrpt   50  408.775 ± 19.766  ops/s
+
+
+---------------------------------------------------------------------------------------------------------
+
+# JMH version: 1.36
+# VM version: JDK 17.0.11, OpenJDK 64-Bit Server VM, 17.0.11+9-LTS
+# VM invoker: /usr/lib/jvm/java-17-openjdk-17.0.11.0.9-2.el9.x86_64/bin/java
+# VM options: -Dfile.encoding=UTF-8
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 10 iterations, 100 ms each
+# Measurement: 10 iterations, 100 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: App.BenchmarksLoopsStreams.fillUpLists
+
+# Run progress: 0.00% complete, ETA 00:00:40
+# Fork: 1 of 5
+# Warmup Iteration   1: 0.039 s/op
+# Warmup Iteration   2: 0.034 s/op
+# Warmup Iteration   3: 0.062 s/op
+# Warmup Iteration   4: 0.035 s/op
+# Warmup Iteration   5: 0.048 s/op
+# Warmup Iteration   6: 0.065 s/op
+# Warmup Iteration   7: 0.094 s/op
+# Warmup Iteration   8: 0.021 s/op
+# Warmup Iteration   9: 0.480 s/op
+# Warmup Iteration  10: 0.105 s/op
+Iteration   1: 0.017 s/op
+Iteration   2: 0.456 s/op
+Iteration   3: 0.027 s/op
+Iteration   4: 0.148 s/op
+Iteration   5: 0.015 s/op
+Iteration   6: 0.801 s/op
+Iteration   7: 0.013 s/op
+Iteration   8: 0.834 s/op
+Iteration   9: 0.067 s/op
+Iteration  10: 0.019 s/op
+
+# Run progress: 5.00% complete, ETA 00:03:19
+# Fork: 2 of 5
+# Warmup Iteration   1: 0.070 s/op
+# Warmup Iteration   2: 0.143 s/op
+# Warmup Iteration   3: 0.076 s/op
+# Warmup Iteration   4: 0.106 s/op
+# Warmup Iteration   5: 0.102 s/op
+# Warmup Iteration   6: 0.108 s/op
+# Warmup Iteration   7: 0.093 s/op
+# Warmup Iteration   8: 0.018 s/op
+# Warmup Iteration   9: 0.492 s/op
+# Warmup Iteration  10: 0.093 s/op
+Iteration   1: 0.093 s/op
+Iteration   2: 0.098 s/op
+Iteration   3: 0.014 s/op
+Iteration   4: 0.292 s/op
+Iteration   5: 0.027 s/op
+Iteration   6: 0.202 s/op
+Iteration   7: 0.085 s/op
+Iteration   8: 0.014 s/op
+Iteration   9: 0.756 s/op
+Iteration  10: 0.026 s/op
+
+# Run progress: 10.00% complete, ETA 00:03:08
+# Fork: 3 of 5
+# Warmup Iteration   1: 0.070 s/op
+# Warmup Iteration   2: 0.114 s/op
+# Warmup Iteration   3: 0.076 s/op
+# Warmup Iteration   4: 0.107 s/op
+# Warmup Iteration   5: 0.093 s/op
+# Warmup Iteration   6: 0.114 s/op
+# Warmup Iteration   7: 0.116 s/op
+# Warmup Iteration   8: 0.098 s/op
+# Warmup Iteration   9: 0.089 s/op
+# Warmup Iteration  10: 0.082 s/op
+Iteration   1: 0.026 s/op
+Iteration   2: 0.245 s/op
+Iteration   3: 0.015 s/op
+Iteration   4: 0.403 s/op
+Iteration   5: 0.021 s/op
+Iteration   6: 0.262 s/op
+Iteration   7: 0.113 s/op
+Iteration   8: 0.013 s/op
+Iteration   9: 0.815 s/op
+Iteration  10: 0.034 s/op
+
+# Run progress: 15.00% complete, ETA 00:02:54
+# Fork: 4 of 5
+# Warmup Iteration   1: 0.061 s/op
+# Warmup Iteration   2: 0.111 s/op
+# Warmup Iteration   3: 0.072 s/op
+# Warmup Iteration   4: 0.099 s/op
+# Warmup Iteration   5: 0.100 s/op
+# Warmup Iteration   6: 0.114 s/op
+# Warmup Iteration   7: 0.104 s/op
+# Warmup Iteration   8: 0.099 s/op
+# Warmup Iteration   9: 0.101 s/op
+# Warmup Iteration  10: 0.108 s/op
+Iteration   1: 0.092 s/op
+Iteration   2: 0.013 s/op
+Iteration   3: 0.777 s/op
+Iteration   4: 0.020 s/op
+Iteration   5: 0.260 s/op
+Iteration   6: 0.097 s/op
+Iteration   7: 0.092 s/op
+Iteration   8: 0.033 s/op
+Iteration   9: 0.211 s/op
+Iteration  10: 0.015 s/op
+
+# Run progress: 20.00% complete, ETA 00:02:46
+# Fork: 5 of 5
+# Warmup Iteration   1: 0.059 s/op
+# Warmup Iteration   2: 0.129 s/op
+# Warmup Iteration   3: 0.058 s/op
+# Warmup Iteration   4: 0.102 s/op
+# Warmup Iteration   5: 0.108 s/op
+# Warmup Iteration   6: 0.121 s/op
+# Warmup Iteration   7: 0.115 s/op
+# Warmup Iteration   8: 0.099 s/op
+# Warmup Iteration   9: 0.109 s/op
+# Warmup Iteration  10: 0.101 s/op
+Iteration   1: 0.101 s/op
+Iteration   2: 0.013 s/op
+Iteration   3: 0.703 s/op
+Iteration   4: 0.026 s/op
+Iteration   5: 0.161 s/op
+Iteration   6: 0.085 s/op
+Iteration   7: 0.096 s/op
+Iteration   8: 0.033 s/op
+Iteration   9: 0.193 s/op
+Iteration  10: 0.014 s/op
+
+
+Result "App.BenchmarksLoopsStreams.fillUpLists":
+  0.180 ±(99.9%) 0.122 s/op [Average]
+  (min, avg, max) = (0.013, 0.180, 0.834), stdev = 0.247
+  CI (99.9%): [0.058, 0.302] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 17.0.11, OpenJDK 64-Bit Server VM, 17.0.11+9-LTS
+# VM invoker: /usr/lib/jvm/java-17-openjdk-17.0.11.0.9-2.el9.x86_64/bin/java
+# VM options: -Dfile.encoding=UTF-8
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 10 iterations, 100 ms each
+# Measurement: 10 iterations, 100 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: App.BenchmarksLoopsStreams.testForLoops
+
+# Run progress: 25.00% complete, ETA 00:02:36
+# Fork: 1 of 5
+# Warmup Iteration   1: 0.013 s/op
+# Warmup Iteration   2: 0.004 s/op
+# Warmup Iteration   3: 0.003 s/op
+# Warmup Iteration   4: 0.003 s/op
+# Warmup Iteration   5: 0.003 s/op
+# Warmup Iteration   6: 0.003 s/op
+# Warmup Iteration   7: 0.003 s/op
+# Warmup Iteration   8: 0.003 s/op
+# Warmup Iteration   9: 0.003 s/op
+# Warmup Iteration  10: 0.003 s/op
+Iteration   1: 0.003 s/op
+Iteration   2: 0.003 s/op
+Iteration   3: 0.003 s/op
+Iteration   4: 0.003 s/op
+Iteration   5: 0.003 s/op
+Iteration   6: 0.003 s/op
+Iteration   7: 0.003 s/op
+Iteration   8: 0.003 s/op
+Iteration   9: 0.003 s/op
+Iteration  10: 0.003 s/op
+
+# Run progress: 30.00% complete, ETA 00:02:07
+# Fork: 2 of 5
+# Warmup Iteration   1: 0.007 s/op
+# Warmup Iteration   2: 0.003 s/op
+# Warmup Iteration   3: 0.003 s/op
+# Warmup Iteration   4: 0.003 s/op
+# Warmup Iteration   5: 0.003 s/op
+# Warmup Iteration   6: 0.003 s/op
+# Warmup Iteration   7: 0.003 s/op
+# Warmup Iteration   8: 0.003 s/op
+# Warmup Iteration   9: 0.003 s/op
+# Warmup Iteration  10: 0.003 s/op
+Iteration   1: 0.002 s/op
+Iteration   2: 0.003 s/op
+Iteration   3: 0.003 s/op
+Iteration   4: 0.003 s/op
+Iteration   5: 0.003 s/op
+Iteration   6: 0.003 s/op
+Iteration   7: 0.003 s/op
+Iteration   8: 0.003 s/op
+Iteration   9: 0.003 s/op
+Iteration  10: 0.003 s/op
+
+# Run progress: 35.00% complete, ETA 00:01:46
+# Fork: 3 of 5
+# Warmup Iteration   1: 0.008 s/op
+# Warmup Iteration   2: 0.003 s/op
+# Warmup Iteration   3: 0.003 s/op
+# Warmup Iteration   4: 0.003 s/op
+# Warmup Iteration   5: 0.003 s/op
+# Warmup Iteration   6: 0.003 s/op
+# Warmup Iteration   7: 0.003 s/op
+# Warmup Iteration   8: 0.003 s/op
+# Warmup Iteration   9: 0.003 s/op
+# Warmup Iteration  10: 0.003 s/op
+Iteration   1: 0.003 s/op
+Iteration   2: 0.003 s/op
+Iteration   3: 0.003 s/op
+Iteration   4: 0.003 s/op
+Iteration   5: 0.003 s/op
+Iteration   6: 0.003 s/op
+Iteration   7: 0.003 s/op
+Iteration   8: 0.003 s/op
+Iteration   9: 0.003 s/op
+Iteration  10: 0.003 s/op
+
+# Run progress: 40.00% complete, ETA 00:01:29
+# Fork: 4 of 5
+# Warmup Iteration   1: 0.007 s/op
+# Warmup Iteration   2: 0.003 s/op
+# Warmup Iteration   3: 0.003 s/op
+# Warmup Iteration   4: 0.003 s/op
+# Warmup Iteration   5: 0.003 s/op
+# Warmup Iteration   6: 0.003 s/op
+# Warmup Iteration   7: 0.003 s/op
+# Warmup Iteration   8: 0.002 s/op
+# Warmup Iteration   9: 0.003 s/op
+# Warmup Iteration  10: 0.002 s/op
+Iteration   1: 0.003 s/op
+Iteration   2: 0.002 s/op
+Iteration   3: 0.002 s/op
+Iteration   4: 0.002 s/op
+Iteration   5: 0.002 s/op
+Iteration   6: 0.003 s/op
+Iteration   7: 0.003 s/op
+Iteration   8: 0.003 s/op
+Iteration   9: 0.003 s/op
+Iteration  10: 0.003 s/op
+
+# Run progress: 45.00% complete, ETA 00:01:15
+# Fork: 5 of 5
+# Warmup Iteration   1: 0.007 s/op
+# Warmup Iteration   2: 0.003 s/op
+# Warmup Iteration   3: 0.003 s/op
+# Warmup Iteration   4: 0.003 s/op
+# Warmup Iteration   5: 0.003 s/op
+# Warmup Iteration   6: 0.003 s/op
+# Warmup Iteration   7: 0.003 s/op
+# Warmup Iteration   8: 0.003 s/op
+# Warmup Iteration   9: 0.003 s/op
+# Warmup Iteration  10: 0.003 s/op
+Iteration   1: 0.003 s/op
+Iteration   2: 0.003 s/op
+Iteration   3: 0.003 s/op
+Iteration   4: 0.002 s/op
+Iteration   5: 0.003 s/op
+Iteration   6: 0.003 s/op
+Iteration   7: 0.002 s/op
+Iteration   8: 0.002 s/op
+Iteration   9: 0.002 s/op
+Iteration  10: 0.002 s/op
+
+
+Result "App.BenchmarksLoopsStreams.testForLoops":
+  0.003 ±(99.9%) 0.001 s/op [Average]
+  (min, avg, max) = (0.002, 0.003, 0.003), stdev = 0.001
+  CI (99.9%): [0.003, 0.003] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 17.0.11, OpenJDK 64-Bit Server VM, 17.0.11+9-LTS
+# VM invoker: /usr/lib/jvm/java-17-openjdk-17.0.11.0.9-2.el9.x86_64/bin/java
+# VM options: -Dfile.encoding=UTF-8
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 10 iterations, 100 ms each
+# Measurement: 10 iterations, 100 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: App.BenchmarksLoopsStreams.testParallelStreams
+
+# Run progress: 50.00% complete, ETA 00:01:04
+# Fork: 1 of 5
+# Warmup Iteration   1: 0.008 s/op
+# Warmup Iteration   2: 0.003 s/op
+# Warmup Iteration   3: 0.003 s/op
+# Warmup Iteration   4: 0.003 s/op
+# Warmup Iteration   5: 0.003 s/op
+# Warmup Iteration   6: 0.003 s/op
+# Warmup Iteration   7: 0.003 s/op
+# Warmup Iteration   8: 0.003 s/op
+# Warmup Iteration   9: 0.003 s/op
+# Warmup Iteration  10: 0.003 s/op
+Iteration   1: 0.003 s/op
+Iteration   2: 0.003 s/op
+Iteration   3: 0.003 s/op
+Iteration   4: 0.003 s/op
+Iteration   5: 0.003 s/op
+Iteration   6: 0.003 s/op
+Iteration   7: 0.003 s/op
+Iteration   8: 0.003 s/op
+Iteration   9: 0.003 s/op
+Iteration  10: 0.003 s/op
+
+# Run progress: 55.00% complete, ETA 00:00:54
+# Fork: 2 of 5
+# Warmup Iteration   1: 0.010 s/op
+# Warmup Iteration   2: 0.004 s/op
+# Warmup Iteration   3: 0.003 s/op
+# Warmup Iteration   4: 0.004 s/op
+# Warmup Iteration   5: 0.003 s/op
+# Warmup Iteration   6: 0.004 s/op
+# Warmup Iteration   7: 0.003 s/op
+# Warmup Iteration   8: 0.003 s/op
+# Warmup Iteration   9: 0.003 s/op
+# Warmup Iteration  10: 0.003 s/op
+Iteration   1: 0.003 s/op
+Iteration   2: 0.003 s/op
+Iteration   3: 0.003 s/op
+Iteration   4: 0.003 s/op
+Iteration   5: 0.003 s/op
+Iteration   6: 0.003 s/op
+Iteration   7: 0.003 s/op
+Iteration   8: 0.003 s/op
+Iteration   9: 0.003 s/op
+Iteration  10: 0.003 s/op
+
+# Run progress: 60.00% complete, ETA 00:00:46
+# Fork: 3 of 5
+# Warmup Iteration   1: 0.009 s/op
+# Warmup Iteration   2: 0.003 s/op
+# Warmup Iteration   3: 0.003 s/op
+# Warmup Iteration   4: 0.004 s/op
+# Warmup Iteration   5: 0.003 s/op
+# Warmup Iteration   6: 0.003 s/op
+# Warmup Iteration   7: 0.003 s/op
+# Warmup Iteration   8: 0.003 s/op
+# Warmup Iteration   9: 0.003 s/op
+# Warmup Iteration  10: 0.003 s/op
+Iteration   1: 0.003 s/op
+Iteration   2: 0.003 s/op
+Iteration   3: 0.003 s/op
+Iteration   4: 0.003 s/op
+Iteration   5: 0.003 s/op
+Iteration   6: 0.003 s/op
+Iteration   7: 0.003 s/op
+Iteration   8: 0.003 s/op
+Iteration   9: 0.003 s/op
+Iteration  10: 0.003 s/op
+
+# Run progress: 65.00% complete, ETA 00:00:38
+# Fork: 4 of 5
+# Warmup Iteration   1: 0.017 s/op
+# Warmup Iteration   2: 0.004 s/op
+# Warmup Iteration   3: 0.003 s/op
+# Warmup Iteration   4: 0.004 s/op
+# Warmup Iteration   5: 0.004 s/op
+# Warmup Iteration   6: 0.003 s/op
+# Warmup Iteration   7: 0.003 s/op
+# Warmup Iteration   8: 0.003 s/op
+# Warmup Iteration   9: 0.003 s/op
+# Warmup Iteration  10: 0.003 s/op
+Iteration   1: 0.003 s/op
+Iteration   2: 0.003 s/op
+Iteration   3: 0.003 s/op
+Iteration   4: 0.003 s/op
+Iteration   5: 0.003 s/op
+Iteration   6: 0.003 s/op
+Iteration   7: 0.003 s/op
+Iteration   8: 0.003 s/op
+Iteration   9: 0.003 s/op
+Iteration  10: 0.003 s/op
+
+# Run progress: 70.00% complete, ETA 00:00:31
+# Fork: 5 of 5
+# Warmup Iteration   1: 0.014 s/op
+# Warmup Iteration   2: 0.004 s/op
+# Warmup Iteration   3: 0.003 s/op
+# Warmup Iteration   4: 0.003 s/op
+# Warmup Iteration   5: 0.003 s/op
+# Warmup Iteration   6: 0.003 s/op
+# Warmup Iteration   7: 0.003 s/op
+# Warmup Iteration   8: 0.003 s/op
+# Warmup Iteration   9: 0.003 s/op
+# Warmup Iteration  10: 0.003 s/op
+Iteration   1: 0.003 s/op
+Iteration   2: 0.003 s/op
+Iteration   3: 0.003 s/op
+Iteration   4: 0.003 s/op
+Iteration   5: 0.003 s/op
+Iteration   6: 0.003 s/op
+Iteration   7: 0.003 s/op
+Iteration   8: 0.003 s/op
+Iteration   9: 0.003 s/op
+Iteration  10: 0.003 s/op
+
+
+Result "App.BenchmarksLoopsStreams.testParallelStreams":
+  0.003 ±(99.9%) 0.001 s/op [Average]
+  (min, avg, max) = (0.003, 0.003, 0.003), stdev = 0.001
+  CI (99.9%): [0.003, 0.003] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 17.0.11, OpenJDK 64-Bit Server VM, 17.0.11+9-LTS
+# VM invoker: /usr/lib/jvm/java-17-openjdk-17.0.11.0.9-2.el9.x86_64/bin/java
+# VM options: -Dfile.encoding=UTF-8
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 10 iterations, 100 ms each
+# Measurement: 10 iterations, 100 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: App.BenchmarksLoopsStreams.testStreams
+
+# Run progress: 75.00% complete, ETA 00:00:25
+# Fork: 1 of 5
+# Warmup Iteration   1: 0.003 s/op
+# Warmup Iteration   2: 0.002 s/op
+# Warmup Iteration   3: 0.002 s/op
+# Warmup Iteration   4: 0.002 s/op
+# Warmup Iteration   5: 0.002 s/op
+# Warmup Iteration   6: 0.002 s/op
+# Warmup Iteration   7: 0.002 s/op
+# Warmup Iteration   8: 0.002 s/op
+# Warmup Iteration   9: 0.002 s/op
+# Warmup Iteration  10: 0.002 s/op
+Iteration   1: 0.002 s/op
+Iteration   2: 0.002 s/op
+Iteration   3: 0.002 s/op
+Iteration   4: 0.003 s/op
+Iteration   5: 0.002 s/op
+Iteration   6: 0.002 s/op
+Iteration   7: 0.002 s/op
+Iteration   8: 0.002 s/op
+Iteration   9: 0.003 s/op
+Iteration  10: 0.003 s/op
+
+# Run progress: 80.00% complete, ETA 00:00:19
+# Fork: 2 of 5
+# Warmup Iteration   1: 0.004 s/op
+# Warmup Iteration   2: 0.006 s/op
+# Warmup Iteration   3: 0.003 s/op
+# Warmup Iteration   4: 0.004 s/op
+# Warmup Iteration   5: 0.004 s/op
+# Warmup Iteration   6: 0.004 s/op
+# Warmup Iteration   7: 0.003 s/op
+# Warmup Iteration   8: 0.003 s/op
+# Warmup Iteration   9: 0.003 s/op
+# Warmup Iteration  10: 0.003 s/op
+Iteration   1: 0.006 s/op
+Iteration   2: 0.005 s/op
+Iteration   3: 0.004 s/op
+Iteration   4: 0.003 s/op
+Iteration   5: 0.003 s/op
+Iteration   6: 0.003 s/op
+Iteration   7: 0.003 s/op
+Iteration   8: 0.003 s/op
+Iteration   9: 0.003 s/op
+Iteration  10: 0.004 s/op
+
+# Run progress: 85.00% complete, ETA 00:00:14
+# Fork: 3 of 5
+# Warmup Iteration   1: 0.004 s/op
+# Warmup Iteration   2: 0.003 s/op
+# Warmup Iteration   3: 0.003 s/op
+# Warmup Iteration   4: 0.003 s/op
+# Warmup Iteration   5: 0.003 s/op
+# Warmup Iteration   6: 0.003 s/op
+# Warmup Iteration   7: 0.004 s/op
+# Warmup Iteration   8: 0.004 s/op
+# Warmup Iteration   9: 0.006 s/op
+# Warmup Iteration  10: 0.004 s/op
+Iteration   1: 0.003 s/op
+Iteration   2: 0.003 s/op
+Iteration   3: 0.003 s/op
+Iteration   4: 0.003 s/op
+Iteration   5: 0.003 s/op
+Iteration   6: 0.003 s/op
+Iteration   7: 0.003 s/op
+Iteration   8: 0.004 s/op
+Iteration   9: 0.003 s/op
+Iteration  10: 0.003 s/op
+
+# Run progress: 90.00% complete, ETA 00:00:09
+# Fork: 4 of 5
+# Warmup Iteration   1: 0.004 s/op
+# Warmup Iteration   2: 0.003 s/op
+# Warmup Iteration   3: 0.003 s/op
+# Warmup Iteration   4: 0.003 s/op
+# Warmup Iteration   5: 0.003 s/op
+# Warmup Iteration   6: 0.003 s/op
+# Warmup Iteration   7: 0.003 s/op
+# Warmup Iteration   8: 0.003 s/op
+# Warmup Iteration   9: 0.003 s/op
+# Warmup Iteration  10: 0.003 s/op
+Iteration   1: 0.003 s/op
+Iteration   2: 0.004 s/op
+Iteration   3: 0.005 s/op
+Iteration   4: 0.003 s/op
+Iteration   5: 0.003 s/op
+Iteration   6: 0.003 s/op
+Iteration   7: 0.002 s/op
+Iteration   8: 0.003 s/op
+Iteration   9: 0.003 s/op
+Iteration  10: 0.003 s/op
+
+# Run progress: 95.00% complete, ETA 00:00:04
+# Fork: 5 of 5
+# Warmup Iteration   1: 0.003 s/op
+# Warmup Iteration   2: 0.003 s/op
+# Warmup Iteration   3: 0.003 s/op
+# Warmup Iteration   4: 0.003 s/op
+# Warmup Iteration   5: 0.003 s/op
+# Warmup Iteration   6: 0.003 s/op
+# Warmup Iteration   7: 0.003 s/op
+# Warmup Iteration   8: 0.002 s/op
+# Warmup Iteration   9: 0.002 s/op
+# Warmup Iteration  10: 0.002 s/op
+Iteration   1: 0.002 s/op
+Iteration   2: 0.002 s/op
+Iteration   3: 0.002 s/op
+Iteration   4: 0.002 s/op
+Iteration   5: 0.002 s/op
+Iteration   6: 0.002 s/op
+Iteration   7: 0.002 s/op
+Iteration   8: 0.002 s/op
+Iteration   9: 0.002 s/op
+Iteration  10: 0.002 s/op
+
+
+Result "App.BenchmarksLoopsStreams.testStreams":
+  0.003 ±(99.9%) 0.001 s/op [Average]
+  (min, avg, max) = (0.002, 0.003, 0.006), stdev = 0.001
+  CI (99.9%): [0.002, 0.003] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:01:28
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+NOTE: Current JVM experimentally supports Compiler Blackholes, and they are in use. Please exercise
+extra caution when trusting the results, look into the generated code to check the benchmark still
+works, and factor in a small probability of new VM bugs. Additionally, while comparisons between
+different JVMs are already problematic, the performance difference caused by different Blackhole
+modes can be very significant. Please make sure you use the consistent Blackhole mode for comparisons.
+
+Benchmark                                       Mode  Cnt  Score    Error  Units
+App.BenchmarksLoopsStreams.fillUpLists          avgt   50  0.180 ±  0.122   s/op
+App.BenchmarksLoopsStreams.testForLoops         avgt   50  0.003 ±  0.001   s/op
+App.BenchmarksLoopsStreams.testParallelStreams  avgt   50  0.003 ±  0.001   s/op
+App.BenchmarksLoopsStreams.testStreams          avgt   50  0.003 ±  0.001   s/op
+
+
+
